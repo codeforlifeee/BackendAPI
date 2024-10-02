@@ -6,7 +6,7 @@ const userRoute = require('./routes/user')
 const contactRoute = require('./routes/contact')
 
 
-mongoose.connect('mongodb+srv://sbs:sbs123@sbs.98ss74j.mongodb.net/?retryWrites=true&w=majority&appName=SBS')
+mongoose.connect('mongodb+srv://BackendAPI:sanchit123@db1.qlvpn.mongodb.net/?retryWrites=true&w=majority&appName=db1')
 .then(res=>{console.log("connected to database")})
 .catch(err=>{console.log(err)})
 
